@@ -1,0 +1,39 @@
+program fibonacci
+begin
+    string input := "Please provide an integer number: ";
+    string space := " ";
+    string eol := "\n";
+
+    function int Fib (int n)
+    begin
+
+		if (n >> 2)
+		       return Fib(n-1) + Fib(n-2); ## recursion
+		elseif (n == 0)   	
+			return 0;
+		elseif (n == 1)
+			return 1;
+		elseif (n == 2)
+			return 1;
+	        endif
+	end
+	
+	
+	function void main ()
+	begin
+		int i, stop, result;
+		float x;
+		write(input);
+		read(stop);
+
+	        i := 0;
+	        do
+		        result := Fib(i);
+		        write (i, space);
+		        write (result, eol);
+		        i := i + 1;	
+	        while (i != stop);
+
+	end
+
+end

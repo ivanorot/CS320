@@ -1,0 +1,288 @@
+Token Type: KEYWORD
+Value: program
+Token Type: ID
+Value: fibonacci
+Token Type: KEYWORD
+Value: begin
+Token Type: KEYWORD
+Value: string
+Token Type: ID
+Value: input
+Token Type: OPERAND
+Value: :=
+Token Type: STRINGLITERAL
+Value: "Please provide an integer number: "
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: string
+Token Type: ID
+Value: space
+Token Type: OPERAND
+Value: :=
+Token Type: STRINGLITERAL
+Value: " "
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: string
+Token Type: ID
+Value: eol
+Token Type: OPERAND
+Value: :=
+Token Type: STRINGLITERAL
+Value: "\n"
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: function
+Token Type: KEYWORD
+Value: int
+Token Type: ID
+Value: Fib
+Token Type: OPERAND
+Value: (
+Token Type: KEYWORD
+Value: int
+Token Type: ID
+Value: n
+Token Type: OPERAND
+Value: )
+Token Type: KEYWORD
+Value: begin
+Token Type: KEYWORD
+Value: if
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: n
+Token Type: OPERAND
+Value: >>
+Token Type: INTLITERAL
+Value: 2
+Token Type: OPERAND
+Value: )
+Token Type: KEYWORD
+Value: return
+Token Type: ID
+Value: Fib
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: n
+Token Type: OPERAND
+Value: -
+Token Type: INTLITERAL
+Value: 1
+Token Type: OPERAND
+Value: )
+Token Type: OPERAND
+Value: +
+Token Type: ID
+Value: Fib
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: n
+Token Type: OPERAND
+Value: -
+Token Type: INTLITERAL
+Value: 2
+Token Type: OPERAND
+Value: )
+Token Type: OPERAND
+Value: ;
+Token Type: COMMENT
+Value: recursion
+Token Type: KEYWORD
+Value: elseif
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: n
+Token Type: OPERAND
+Value: ==
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPERAND
+Value: )
+Token Type: KEYWORD
+Value: return
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: elseif
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: n
+Token Type: OPERAND
+Value: ==
+Token Type: INTLITERAL
+Value: 1
+Token Type: OPERAND
+Value: )
+Token Type: KEYWORD
+Value: return
+Token Type: INTLITERAL
+Value: 1
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: elseif
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: n
+Token Type: OPERAND
+Value: ==
+Token Type: INTLITERAL
+Value: 2
+Token Type: OPERAND
+Value: )
+Token Type: KEYWORD
+Value: return
+Token Type: INTLITERAL
+Value: 1
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: endif
+Token Type: KEYWORD
+Value: end
+Token Type: KEYWORD
+Value: function
+Token Type: KEYWORD
+Value: void
+Token Type: ID
+Value: main
+Token Type: OPERAND
+Value: (
+Token Type: OPERAND
+Value: )
+Token Type: KEYWORD
+Value: begin
+Token Type: KEYWORD
+Value: int
+Token Type: ID
+Value: i
+Token Type: OPERAND
+Value: ,
+Token Type: ID
+Value: stop
+Token Type: OPERAND
+Value: ,
+Token Type: ID
+Value: result
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: float
+Token Type: ID
+Value: x
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: write
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: input
+Token Type: OPERAND
+Value: )
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: read
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: stop
+Token Type: OPERAND
+Value: )
+Token Type: OPERAND
+Value: ;
+Token Type: ID
+Value: i
+Token Type: OPERAND
+Value: :=
+Token Type: INTLITERAL
+Value: 0
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: do
+Token Type: ID
+Value: result
+Token Type: OPERAND
+Value: :=
+Token Type: ID
+Value: Fib
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: i
+Token Type: OPERAND
+Value: )
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: write
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: i
+Token Type: OPERAND
+Value: ,
+Token Type: ID
+Value: space
+Token Type: OPERAND
+Value: )
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: write
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: result
+Token Type: OPERAND
+Value: ,
+Token Type: ID
+Value: eol
+Token Type: OPERAND
+Value: )
+Token Type: OPERAND
+Value: ;
+Token Type: ID
+Value: i
+Token Type: OPERAND
+Value: :=
+Token Type: ID
+Value: i
+Token Type: OPERAND
+Value: +
+Token Type: INTLITERAL
+Value: 1
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: while
+Token Type: OPERAND
+Value: (
+Token Type: ID
+Value: i
+Token Type: OPERAND
+Value: !=
+Token Type: ID
+Value: stop
+Token Type: OPERAND
+Value: )
+Token Type: OPERAND
+Value: ;
+Token Type: KEYWORD
+Value: end
+Token Type: KEYWORD
+Value: end

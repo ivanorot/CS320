@@ -1,0 +1,18 @@
+SymbolTable <GLOBAL>
+
+name: input - kind: variable - type: string - value: "Please provide an integer number: "
+name: space - kind: variable - type: string - value: " "
+name: eol - kind: variable - type: string - value: "\n"
+name Fib - kind: function - type: int 
+------------------------------
+Symbol Table Fib
+
+name main - kind: function - type: int 
+------------------------------
+Symbol Table main
+
+name: i - kind: variable - type: int
+name: stop - kind: variable - type: int
+name: result - kind: variable - type: int
+name: x - kind: variable - type: float
+------------------------------
